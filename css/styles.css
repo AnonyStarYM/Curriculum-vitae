@@ -2,7 +2,7 @@ body {
     margin: 0;
     text-align: center;
     background-color: #e4ebf5;
-    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-family: "Cormorant", Arial, Helvetica, serif;
 }
 
 h1 {
@@ -12,12 +12,12 @@ h1 {
 }
 
 h2 {
-    font-family: "Josefin Slab", sans-serif;
+    font-family: "Josefin Slab", serif;
     font-size: 40px;
 }
 
 h3 {
-    font-family: "Josefin Slab", sans-serif;
+    font-family: "Josefin Slab", serif;
     font-size: 30px;
 }
 
@@ -30,7 +30,7 @@ hr {
 
 a {
     color: #e4ebf5;
-    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-family: "Cormorant", serif;
     margin: 10px 20px;
     text-decoration: none;
 }
@@ -53,33 +53,45 @@ a:hover {
 
 .bottom-container {
     background-color: #10223f;
-    padding: 50px 0 20px;
+    padding: 50px 0 50px;
 }
 
 .skill-row {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
 }
 
 
 /*words*/
 
-.intro {
-    width: 30%;
-    margin: auto;
-    line-height: 2;
+.statement {
+    font-family: "Tangerine", serif;
+    font-size: 30px;
 }
 
-.contact-message {
-    width: 40%;
-    margin: 40px auto 60px;
+.skill-description {
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.text-list {
+    width: 50%;
+    margin: 46px auto 60px;
+    text-align: left;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.footer-link {
+    font-family: "Cormorant", serif;
+    font-size: 1.1rem;
 }
 
 .copyright {
     color: #a7b2c2;
-    font-size: 0.75rem;
+    font-size: 1rem;
+    padding-top: 10px;
 }
 
 
@@ -87,14 +99,14 @@ a:hover {
 
 .saturn-image {
     position: absolute;
-    right: 400px;
+    right: 30%;
     top: 160px;
 }
 
 .astronaut-image {
     position: absolute;
-    left: 400px;
-    bottom: 450px;
+    left: 25%;
+    top: 440px;
 }
 
 .capricorn-image {
