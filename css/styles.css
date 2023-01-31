@@ -42,9 +42,14 @@ a:hover {
 
 /*layout*/
 
+.nav-bar {
+    background-image: linear-gradient(#10223f, #e4ebf5);
+    padding: 10px 0 10px;
+}
+
 .top-container {
     position: relative;
-    padding-top: 183px;
+    padding-top: 173px;
 }
 
 .middle-container {
@@ -67,7 +72,7 @@ a:hover {
 
 .statement {
     font-family: "Tangerine", serif;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .skill-description {
